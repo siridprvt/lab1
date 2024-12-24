@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        body{
+            display:flex;
+            justify-content: center;
+            align-items: center;
+            flex-direction:column;
+        }
+        h1{
+            margin-bottom: 175px;;
+        }
+        div{
+            border:1px solid black;
+            padding:80px;
+            font-size: large;
+        }
+    </style>
+</head>
+<body>
+    <h1>Welcome to Registration page</h1>
+    <div>
+        Username:<input type="text" id="username" required>
+        <br><br>
+        Email:<input type="email" id="email" required>
+        <br><br>
+        Mobile no:<input type="text"  id="mobile" required>
+        <br><br>
+        Password: <input type="password" id="password" required>
+        <br><br>
+        <button onclick="verify()">Register</button>
+        <br><br>
+        <h3> Already a user? <a href="login.html">Login</a></h3>
+    </div>
+    <script>
+        function verify(){
+            alert("User registered Succesfully")
+        }
+    </script>
+</body>
+</html>

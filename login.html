@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        body{
+            display:flex;
+            justify-content: center;
+            align-items: center;
+            flex-direction:column;
+            background-color:beige ;
+        }
+        h1{
+            margin-bottom: 175px;;
+        }
+        div{
+            border:1px solid black;
+            padding:70px 50px;
+            font-size: large;
+            background-color: rgb(245, 230, 213);
+        }
+    </style>
+</head>
+<body>
+    <h1>Welcome to Login Page</h1>
+    <div>
+        Username : <input type="text" id="username">
+        <br>
+        <br>
+        Password : <input type="password" id="password">
+        <br><br>
+        <button onclick="verify()">Login</button>
+        <h3> New user? <a href="register.html">Register</a></h3>
+    </div>
+    <script src="./login.js"></script>
+</body>
+
+</html>
